@@ -1,7 +1,9 @@
+# 递归
 class Solution:
     def reversePrint(self, head: ListNode) -> List[int]:
         return [] if not head else self.reversePrint(head.next) + [head.val] 
 
+# 辅助栈
 class Solution:
     def reversePrint(self, head: ListNode) -> List[int]:
         stack = []
